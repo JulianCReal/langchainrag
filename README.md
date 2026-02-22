@@ -186,7 +186,7 @@ loader = PyPDFLoader("my_document.pdf")
 ## Project structure
 
 ```
-repo2/
+langchainrag/
 ├── ingest.py         # Document loading, chunking, embedding → Pinecone
 ├── query.py          # RAG chain: retrieve → prompt → generate
 ├── requirements.txt  # Python dependencies
